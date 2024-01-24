@@ -1,1 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+
+input{
+    width:100%;
+    height:40px;
+    
+}
+
+ul{
+  
+    width: 100%;
+    flex-grow: 1;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+    
+}
+
+.form{
+   margin: 30px;
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    height:200px;
+}
+
+li{
+   border: 1px solid black;
+    height: 30px;
+    padding: 5px;
+   
+}
+
+li:first-child{
+     color: yellow;
+    background-color: #01421a;
+}
+li:hover{
+    color: yellow;
+    background-color: #01421a;
+}
